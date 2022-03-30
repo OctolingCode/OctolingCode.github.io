@@ -777,15 +777,12 @@ main(_) ->\n\
 ";
 
 var executableSource = "\
-Judge0 IDE assumes that content of executable is Base64 encoded.\n\
+We assumes that content of executable is Base64 encoded.\n\
 \n\
 This means that you should Base64 encode content of your binary,\n\
 paste it here and click \"Run\".\n\
 \n\
-Here is an example of compiled \"hello, world\" NASM program.\n\
-Content of compiled binary is Base64 encoded and used as source code.\n\
 \n\
-https://ide.judge0.com/?kS_f\n\
 ";
 
 var fsharpSource = "printfn \"hello, world\"\n";
@@ -893,7 +890,7 @@ object Main {\n\
 ";
 
 var sqliteSource = "\
--- On Judge0 IDE your SQL script is run on chinook database (https://www.sqlitetutorial.net/sqlite-sample-database).\n\
+-- On IDE your SQL script is run on chinook database (https://www.sqlitetutorial.net/sqlite-sample-database).\n\
 -- For more information about how to use SQL with Judge0 API please\n\
 -- watch this asciicast: https://asciinema.org/a/326975.\n\
 SELECT\n\
@@ -923,7 +920,7 @@ End Module\n\
 ";
 
 var c3Source = "\
-// On the Judge0 IDE, C3 is automatically\n\
+// On the IDE, C3 is automatically\n\
 // updated every hour to the latest commit on master branch.\n\
 module main;\n\
 \n\
@@ -1018,7 +1015,7 @@ print(f\"Hello from processor with rank {world_rank} out of {world_size} process
 ";
 
 var nimSource = "\
-# On the Judge0 IDE, Nim is automatically\n\
+# On the IDE, Nim is automatically\n\
 # updated every day to the latest stable version.\n\
 echo \"hello, world\"\n\
 ";
@@ -1034,7 +1031,7 @@ print(\"hello, world\")\n\
 ";
 
 var bosqueSource = "\
-// On the Judge0 IDE, Bosque (https://github.com/microsoft/BosqueLanguage)\n\
+// On the IDE, Bosque (https://github.com/microsoft/BosqueLanguage)\n\
 // is automatically updated every hour to the latest commit on master branch.\n\
 \n\
 namespace NSMain;\n\
