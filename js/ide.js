@@ -425,7 +425,7 @@ $(window).resize(function() {
 $(document).ready(function () {
     updateScreenElements();
 
-    console.log("Hey, Judge0 IDE is open-sourced: https://github.com/judge0/ide. Have fun!");
+    console.log("Hey, Hellooooo !");
 
     $selectLanguage = $("#select-language");
     $selectLanguage.change(function (e) {
